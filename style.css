@@ -4,13 +4,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: white;
     font-family: Arial, sans-serif;
 }
 
 .container h1 {
-    color: white;
-    font-size: 80px;
+    color: red;
+    font-size: 100px;
     text-align: center;
-    text-transform: uppercase;
+    font-weight: bold;
 }
