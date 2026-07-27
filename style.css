@@ -1,16 +1,28 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
-    font-family: Arial, sans-serif;
+    background: #ffffff;
+    font-family: "Noto Sans Bengali", Arial, sans-serif;
 }
 
-.container h1 {
-    color: red;
-    font-size: 100px;
-    text-align: center;
+h1 {
+    font-size: 70px;
     font-weight: bold;
+    text-align: center;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
 }
