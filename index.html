@@ -1,17 +1,293 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Farhana Ahmed — Digital Marketing Strategist</title>
+<meta name="description" content="Digital marketing strategist specializing in SEO, paid media, and conversion-focused campaigns." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <h1>
-        <span class="green">ওয়েলকাম,</span>
-        <span class="red">বোকাসোকা</span>
-    </h1>
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a href="#top" class="logo">Farhana<span class="logo-dot">.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#skills" class="nav-link">Toolkit</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner reveal">
+      <p class="eyebrow">Digital Marketing Strategist</p>
+      <h1 class="hero-title">Where strategy<br>meets measurable<br><em>growth.</em></h1>
+      <p class="hero-sub">I design and run data-led campaigns across SEO, paid media, and content — turning attention into customers for brands that want to see the numbers move.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View Case Studies</a>
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+    </div>
+
+    <div class="hero-graphic" aria-hidden="true">
+      <svg viewBox="0 0 640 340" class="growth-svg" preserveAspectRatio="xMidYMid meet">
+        <line x1="0" y1="80" x2="640" y2="80" class="grid-line" />
+        <line x1="0" y1="170" x2="640" y2="170" class="grid-line" />
+        <line x1="0" y1="260" x2="640" y2="260" class="grid-line" />
+
+        <path class="growth-path" d="M15,280 C110,262 140,232 178,222 C255,202 300,162 338,142 C398,112 420,102 458,92 C518,72 578,48 618,32" />
+
+        <g class="milestone m1">
+          <circle cx="178" cy="222" r="5" />
+          <text x="178" y="248">Launch</text>
+        </g>
+        <g class="milestone m2">
+          <circle cx="338" cy="142" r="5" />
+          <text x="338" y="168">Scale</text>
+        </g>
+        <g class="milestone m3">
+          <circle cx="458" cy="92" r="5" />
+          <text x="458" y="118">Optimize</text>
+        </g>
+        <g class="milestone m4 final">
+          <circle cx="618" cy="32" r="7" />
+          <text x="565" y="14">3.2x ROAS</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="scroll-cue"><span></span>Scroll</div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-head reveal">
+      <p class="eyebrow">01 — About</p>
+      <h2>Part strategist, part analyst,<br>all results.</h2>
+    </div>
+
+    <div class="about-grid reveal">
+      <p class="about-lead">Over the past several years I've helped e-commerce brands, SaaS startups, and local businesses grow their digital presence — not with guesswork, but with tested strategy and a close read of the data behind every channel. I've sat on both sides of the spreadsheet: the creative brief and the attribution report.</p>
+      <blockquote class="pull-quote">"Marketing that can't be measured is just an opinion. I build campaigns that prove themselves."</blockquote>
+    </div>
+
+    <div class="stats-row reveal">
+      <div class="stat">
+        <span class="stat-num">5+</span>
+        <span class="stat-label">Years in Practice</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">40+</span>
+        <span class="stat-label">Campaigns Launched</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3.4x</span>
+        <span class="stat-label">Avg. ROAS Delivered</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">12</span>
+        <span class="stat-label">Industries Served</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="section-head reveal">
+      <p class="eyebrow">02 — Expertise</p>
+      <h2>Five disciplines.<br>One growth engine.</h2>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <span class="service-mark">SEO</span>
+        <h3>Organic Growth</h3>
+        <p>Technical audits, content architecture, and a link strategy built for compounding traffic, not rented attention.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <span class="service-mark">PPC</span>
+        <h3>Paid Media</h3>
+        <p>Google Ads and paid social structures engineered around one metric that matters: return on ad spend.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <span class="service-mark">SMM</span>
+        <h3>Social Strategy</h3>
+        <p>Editorial calendars and community management that build a following that actually converts.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <span class="service-mark">CRM</span>
+        <h3>Content &amp; Lifecycle</h3>
+        <p>Long-form content and email flows that nurture a lead from first click to repeat customer.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <span class="service-mark">CRO</span>
+        <h3>Analytics &amp; CRO</h3>
+        <p>Dashboards, heatmaps, and A/B tests that turn traffic you already have into revenue you're missing.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ WORK / CASE STUDIES ============ -->
+  <section class="work" id="work">
+    <div class="section-head reveal">
+      <p class="eyebrow">03 — Case Studies</p>
+      <h2>Selected results.</h2>
+    </div>
+
+    <div class="work-list">
+      <article class="work-item reveal">
+        <div class="work-index">01</div>
+        <div class="work-content">
+          <p class="work-tag">E-Commerce · SEO &amp; Content</p>
+          <h3>Reviving organic traffic for a fashion retailer</h3>
+          <p class="work-desc">A technical SEO overhaul paired with a content cluster strategy rebuilt organic visibility that had been declining for two years.</p>
+          <div class="work-metrics">
+            <div class="metric"><span class="metric-num">+248%</span><span class="metric-label">Organic Traffic</span></div>
+            <div class="metric"><span class="metric-num">6 mo</span><span class="metric-label">Timeline</span></div>
+          </div>
+        </div>
+        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,50 Q30,45 45,38 T80,20 T115,8" /></svg>
+      </article>
+
+      <article class="work-item reveal">
+        <div class="work-index">02</div>
+        <div class="work-content">
+          <p class="work-tag">SaaS · Paid Media</p>
+          <h3>Scaling paid acquisition for a project-management SaaS</h3>
+          <p class="work-desc">Rebuilt the paid social funnel around lookalike audiences and dynamic creative testing, cutting acquisition cost while scaling monthly spend threefold.</p>
+          <div class="work-metrics">
+            <div class="metric"><span class="metric-num">3.2x</span><span class="metric-label">ROAS</span></div>
+            <div class="metric"><span class="metric-num">3x</span><span class="metric-label">Spend Scaled</span></div>
+          </div>
+        </div>
+        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,52 Q35,50 55,42 T90,25 T115,6" /></svg>
+      </article>
+
+      <article class="work-item reveal">
+        <div class="work-index">03</div>
+        <div class="work-content">
+          <p class="work-tag">Hospitality · Social Strategy</p>
+          <h3>Growing a loyal following for a restaurant group</h3>
+          <p class="work-desc">A content system built around behind-the-scenes storytelling and local partnerships turned social channels into the group's top booking source.</p>
+          <div class="work-metrics">
+            <div class="metric"><span class="metric-num">+180%</span><span class="metric-label">Engagement</span></div>
+            <div class="metric"><span class="metric-num">№1</span><span class="metric-label">Booking Channel</span></div>
+          </div>
+        </div>
+        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,48 Q40,46 60,36 T95,22 T115,14" /></svg>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TOOLKIT ============ -->
+  <section class="tools" id="skills">
+    <div class="section-head reveal">
+      <p class="eyebrow">04 — Toolkit</p>
+      <h2>Platforms I run campaigns on.</h2>
+    </div>
+
+    <div class="tools-marquee">
+      <div class="tools-track">
+        <span>Google Analytics 4</span><span>Google Ads</span><span>Meta Ads Manager</span><span>SEMrush</span><span>HubSpot</span><span>Mailchimp</span><span>Hotjar</span><span>Looker Studio</span>
+        <span>Google Analytics 4</span><span>Google Ads</span><span>Meta Ads Manager</span><span>SEMrush</span><span>HubSpot</span><span>Mailchimp</span><span>Hotjar</span><span>Looker Studio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials">
+    <div class="section-head reveal">
+      <p class="eyebrow">05 — Word on the street</p>
+    </div>
+
+    <div class="testimonial-grid">
+      <blockquote class="reveal">
+        <p>"Farhana doesn't just run campaigns — she reads the data like a second language. Our ad spend finally makes sense."</p>
+        <cite>Imran K. — Founder, DTC Skincare Brand</cite>
+      </blockquote>
+
+      <blockquote class="reveal">
+        <p>"We came in wanting more followers. We left with a repeatable acquisition channel."</p>
+        <cite>Sadia R. — Marketing Lead, SaaS Company</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <p class="eyebrow reveal">Get in touch</p>
+    <h2 class="reveal">Let's grow something<br>worth measuring.</h2>
+    <a href="mailto:hello@farhana-ahmed.com" class="contact-email reveal">hello@farhana-ahmed.com</a>
+    <div class="contact-links reveal">
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Farhana Ahmed. Built with strategy, and a little bit of code.</p>
+  <a href="#top" class="back-top">Back to top ↑</a>
+</footer>
+
+<script>
+  // Header state on scroll
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const nav = document.getElementById('nav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('nav-open');
+    navToggle.classList.toggle('active', isOpen);
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('nav-open');
+      navToggle.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', false);
+    });
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
 
 </body>
 </html>
