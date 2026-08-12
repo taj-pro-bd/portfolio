@@ -1,293 +1,788 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Farhana Ahmed — Digital Marketing Strategist</title>
-<meta name="description" content="Digital marketing strategist specializing in SEO, paid media, and conversion-focused campaigns." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <title>Md. Sajjadur Rahman | Digital Marketing Specialist</title>
 
-<link rel="stylesheet" href="style.css" />
+    <meta name="description"
+          content="Md. Sajjadur Rahman - Digital Marketing Specialist specializing in Google Ads, Meta Ads, Lead Generation, Social Media Marketing and Growth Strategy.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="site-header" id="header">
-  <div class="header-inner">
-    <a href="#top" class="logo">Farhana<span class="logo-dot">.</span></a>
+<!-- ================= PRELOADER ================= -->
 
-    <nav class="nav" id="nav">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#services" class="nav-link">Services</a>
-      <a href="#work" class="nav-link">Work</a>
-      <a href="#skills" class="nav-link">Toolkit</a>
-      <a href="#contact" class="nav-cta">Let's Talk</a>
+<div id="preloader">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>S</span>ajjadur<span>.</span>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
-      <span></span><span></span><span></span>
+    <a href="#contact" class="nav-btn">
+        Let's Talk
+    </a>
+
+    <button class="menu-btn" id="menuBtn">
+        ☰
     </button>
-  </div>
+
 </header>
 
-<main id="top">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero">
-    <div class="hero-inner reveal">
-      <p class="eyebrow">Digital Marketing Strategist</p>
-      <h1 class="hero-title">Where strategy<br>meets measurable<br><em>growth.</em></h1>
-      <p class="hero-sub">I design and run data-led campaigns across SEO, paid media, and content — turning attention into customers for brands that want to see the numbers move.</p>
-      <div class="hero-actions">
-        <a href="#work" class="btn btn-primary">View Case Studies</a>
-        <a href="#contact" class="btn btn-ghost">Start a Project</a>
-      </div>
-    </div>
+<!-- ================= HERO ================= -->
 
-    <div class="hero-graphic" aria-hidden="true">
-      <svg viewBox="0 0 640 340" class="growth-svg" preserveAspectRatio="xMidYMid meet">
-        <line x1="0" y1="80" x2="640" y2="80" class="grid-line" />
-        <line x1="0" y1="170" x2="640" y2="170" class="grid-line" />
-        <line x1="0" y1="260" x2="640" y2="260" class="grid-line" />
+<section class="hero" id="home">
 
-        <path class="growth-path" d="M15,280 C110,262 140,232 178,222 C255,202 300,162 338,142 C398,112 420,102 458,92 C518,72 578,48 618,32" />
+    <canvas id="particles"></canvas>
 
-        <g class="milestone m1">
-          <circle cx="178" cy="222" r="5" />
-          <text x="178" y="248">Launch</text>
-        </g>
-        <g class="milestone m2">
-          <circle cx="338" cy="142" r="5" />
-          <text x="338" y="168">Scale</text>
-        </g>
-        <g class="milestone m3">
-          <circle cx="458" cy="92" r="5" />
-          <text x="458" y="118">Optimize</text>
-        </g>
-        <g class="milestone m4 final">
-          <circle cx="618" cy="32" r="7" />
-          <text x="565" y="14">3.2x ROAS</text>
-        </g>
-      </svg>
-    </div>
+    <div class="hero-content">
 
-    <div class="scroll-cue"><span></span>Scroll</div>
-  </section>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="about" id="about">
-    <div class="section-head reveal">
-      <p class="eyebrow">01 — About</p>
-      <h2>Part strategist, part analyst,<br>all results.</h2>
-    </div>
-
-    <div class="about-grid reveal">
-      <p class="about-lead">Over the past several years I've helped e-commerce brands, SaaS startups, and local businesses grow their digital presence — not with guesswork, but with tested strategy and a close read of the data behind every channel. I've sat on both sides of the spreadsheet: the creative brief and the attribution report.</p>
-      <blockquote class="pull-quote">"Marketing that can't be measured is just an opinion. I build campaigns that prove themselves."</blockquote>
-    </div>
-
-    <div class="stats-row reveal">
-      <div class="stat">
-        <span class="stat-num">5+</span>
-        <span class="stat-label">Years in Practice</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">40+</span>
-        <span class="stat-label">Campaigns Launched</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">3.4x</span>
-        <span class="stat-label">Avg. ROAS Delivered</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">12</span>
-        <span class="stat-label">Industries Served</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ SERVICES ============ -->
-  <section class="services" id="services">
-    <div class="section-head reveal">
-      <p class="eyebrow">02 — Expertise</p>
-      <h2>Five disciplines.<br>One growth engine.</h2>
-    </div>
-
-    <div class="services-grid">
-      <article class="service-card reveal">
-        <span class="service-mark">SEO</span>
-        <h3>Organic Growth</h3>
-        <p>Technical audits, content architecture, and a link strategy built for compounding traffic, not rented attention.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <span class="service-mark">PPC</span>
-        <h3>Paid Media</h3>
-        <p>Google Ads and paid social structures engineered around one metric that matters: return on ad spend.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <span class="service-mark">SMM</span>
-        <h3>Social Strategy</h3>
-        <p>Editorial calendars and community management that build a following that actually converts.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <span class="service-mark">CRM</span>
-        <h3>Content &amp; Lifecycle</h3>
-        <p>Long-form content and email flows that nurture a lead from first click to repeat customer.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <span class="service-mark">CRO</span>
-        <h3>Analytics &amp; CRO</h3>
-        <p>Dashboards, heatmaps, and A/B tests that turn traffic you already have into revenue you're missing.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- ============ WORK / CASE STUDIES ============ -->
-  <section class="work" id="work">
-    <div class="section-head reveal">
-      <p class="eyebrow">03 — Case Studies</p>
-      <h2>Selected results.</h2>
-    </div>
-
-    <div class="work-list">
-      <article class="work-item reveal">
-        <div class="work-index">01</div>
-        <div class="work-content">
-          <p class="work-tag">E-Commerce · SEO &amp; Content</p>
-          <h3>Reviving organic traffic for a fashion retailer</h3>
-          <p class="work-desc">A technical SEO overhaul paired with a content cluster strategy rebuilt organic visibility that had been declining for two years.</p>
-          <div class="work-metrics">
-            <div class="metric"><span class="metric-num">+248%</span><span class="metric-label">Organic Traffic</span></div>
-            <div class="metric"><span class="metric-num">6 mo</span><span class="metric-label">Timeline</span></div>
-          </div>
+        <div class="hero-badge">
+            <span class="status-dot"></span>
+            Available for Projects
         </div>
-        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,50 Q30,45 45,38 T80,20 T115,8" /></svg>
-      </article>
 
-      <article class="work-item reveal">
-        <div class="work-index">02</div>
-        <div class="work-content">
-          <p class="work-tag">SaaS · Paid Media</p>
-          <h3>Scaling paid acquisition for a project-management SaaS</h3>
-          <p class="work-desc">Rebuilt the paid social funnel around lookalike audiences and dynamic creative testing, cutting acquisition cost while scaling monthly spend threefold.</p>
-          <div class="work-metrics">
-            <div class="metric"><span class="metric-num">3.2x</span><span class="metric-label">ROAS</span></div>
-            <div class="metric"><span class="metric-num">3x</span><span class="metric-label">Spend Scaled</span></div>
-          </div>
+        <p class="small-title">
+            Hello, I'm
+        </p>
+
+        <h1>
+            Md. <span>Sajjadur</span><br>
+            Rahman
+        </h1>
+
+        <h2>
+            Digital Marketing <strong>Specialist</strong>
+        </h2>
+
+        <p class="hero-description">
+            I help businesses grow through data-driven digital marketing,
+            performance advertising, lead generation and powerful online
+            growth strategies.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#portfolio" class="primary-btn">
+                Explore My Work
+                <span>↗</span>
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Let's Work Together
+            </a>
+
         </div>
-        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,52 Q35,50 55,42 T90,25 T115,6" /></svg>
-      </article>
 
-      <article class="work-item reveal">
-        <div class="work-index">03</div>
-        <div class="work-content">
-          <p class="work-tag">Hospitality · Social Strategy</p>
-          <h3>Growing a loyal following for a restaurant group</h3>
-          <p class="work-desc">A content system built around behind-the-scenes storytelling and local partnerships turned social channels into the group's top booking source.</p>
-          <div class="work-metrics">
-            <div class="metric"><span class="metric-num">+180%</span><span class="metric-label">Engagement</span></div>
-            <div class="metric"><span class="metric-num">№1</span><span class="metric-label">Booking Channel</span></div>
-          </div>
+        <div class="hero-stats">
+
+            <div>
+                <strong>50+</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>20+</strong>
+                <span>Happy Clients</span>
+            </div>
+
+            <div>
+                <strong>5★</strong>
+                <span>Freelancer Rating</span>
+            </div>
+
         </div>
-        <svg class="work-spark" viewBox="0 0 120 60" aria-hidden="true"><path d="M5,48 Q40,46 60,36 T95,22 T115,14" /></svg>
-      </article>
-    </div>
-  </section>
 
-  <!-- ============ TOOLKIT ============ -->
-  <section class="tools" id="skills">
-    <div class="section-head reveal">
-      <p class="eyebrow">04 — Toolkit</p>
-      <h2>Platforms I run campaigns on.</h2>
     </div>
 
-    <div class="tools-marquee">
-      <div class="tools-track">
-        <span>Google Analytics 4</span><span>Google Ads</span><span>Meta Ads Manager</span><span>SEMrush</span><span>HubSpot</span><span>Mailchimp</span><span>Hotjar</span><span>Looker Studio</span>
-        <span>Google Analytics 4</span><span>Google Ads</span><span>Meta Ads Manager</span><span>SEMrush</span><span>HubSpot</span><span>Mailchimp</span><span>Hotjar</span><span>Looker Studio</span>
-      </div>
+
+    <!-- 3D ORB -->
+
+    <div class="orb-container" id="orb">
+
+        <div class="orb">
+
+            <div class="orb-ring ring-1"></div>
+            <div class="orb-ring ring-2"></div>
+            <div class="orb-ring ring-3"></div>
+
+            <div class="orb-core">
+                <span>360°</span>
+                <small>MARKETING</small>
+            </div>
+
+        </div>
+
+        <div class="floating-card card-one">
+            <span>GOOGLE ADS</span>
+            <strong>+87%</strong>
+        </div>
+
+        <div class="floating-card card-two">
+            <span>LEADS</span>
+            <strong>+124%</strong>
+        </div>
+
+        <div class="floating-card card-three">
+            <span>ROAS</span>
+            <strong>4.8x</strong>
+        </div>
+
     </div>
-  </section>
 
-  <!-- ============ TESTIMONIALS ============ -->
-  <section class="testimonials">
-    <div class="section-head reveal">
-      <p class="eyebrow">05 — Word on the street</p>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about" id="about">
+
+    <div class="section-label">
+        01 — ABOUT ME
     </div>
 
-    <div class="testimonial-grid">
-      <blockquote class="reveal">
-        <p>"Farhana doesn't just run campaigns — she reads the data like a second language. Our ad spend finally makes sense."</p>
-        <cite>Imran K. — Founder, DTC Skincare Brand</cite>
-      </blockquote>
+    <div class="about-grid">
 
-      <blockquote class="reveal">
-        <p>"We came in wanting more followers. We left with a repeatable acquisition channel."</p>
-        <cite>Sadia R. — Marketing Lead, SaaS Company</cite>
-      </blockquote>
+        <div class="about-title">
+
+            <h2>
+                Turning <span>Clicks</span><br>
+                Into Growth.
+            </h2>
+
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                I'm <strong>Md. Sajjadur Rahman</strong>, a Digital Marketing
+                Specialist focused on helping businesses attract the right
+                audience, generate quality leads and turn digital traffic
+                into measurable business growth.
+            </p>
+
+            <p>
+                My approach combines creative marketing with analytics,
+                performance advertising and conversion-focused strategies.
+                From Google Ads and Meta Ads to social media marketing and
+                lead generation, I build marketing systems designed around
+                real business goals.
+            </p>
+
+            <div class="about-tags">
+
+                <span>Performance Marketing</span>
+                <span>Lead Generation</span>
+                <span>Growth Strategy</span>
+                <span>Data Driven</span>
+
+            </div>
+
+        </div>
+
     </div>
-  </section>
 
-  <!-- ============ CONTACT ============ -->
-  <section class="contact" id="contact">
-    <p class="eyebrow reveal">Get in touch</p>
-    <h2 class="reveal">Let's grow something<br>worth measuring.</h2>
-    <a href="mailto:hello@farhana-ahmed.com" class="contact-email reveal">hello@farhana-ahmed.com</a>
-    <div class="contact-links reveal">
-      <a href="#">LinkedIn</a>
-      <a href="#">Instagram</a>
-      <a href="#">WhatsApp</a>
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services" id="services">
+
+    <div class="section-label">
+        02 — WHAT I DO
     </div>
-  </section>
 
-</main>
+    <div class="section-heading">
 
-<footer class="site-footer">
-  <p>© 2026 Farhana Ahmed. Built with strategy, and a little bit of code.</p>
-  <a href="#top" class="back-top">Back to top ↑</a>
+        <h2>
+            Digital Marketing<br>
+            <span>That Delivers.</span>
+        </h2>
+
+        <p>
+            Strategies designed to increase visibility, generate leads
+            and create measurable business results.
+        </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-number">01</div>
+
+            <div class="service-icon">
+                ◎
+            </div>
+
+            <h3>Google Ads</h3>
+
+            <p>
+                Search, Display and Video campaigns focused on qualified
+                traffic, conversions and profitable growth.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-number">02</div>
+
+            <div class="service-icon">
+                ◉
+            </div>
+
+            <h3>Meta Ads</h3>
+
+            <p>
+                Facebook and Instagram advertising strategies designed
+                for leads, sales, engagement and scalable growth.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-number">03</div>
+
+            <div class="service-icon">
+                ◇
+            </div>
+
+            <h3>Lead Generation</h3>
+
+            <p>
+                Conversion-focused campaigns that attract high-quality
+                prospects and turn attention into opportunities.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-number">04</div>
+
+            <div class="service-icon">
+                ✦
+            </div>
+
+            <h3>Social Media Marketing</h3>
+
+            <p>
+                Content, audience growth and social strategies that build
+                stronger brands and meaningful engagement.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-number">05</div>
+
+            <div class="service-icon">
+                ↗
+            </div>
+
+            <h3>Conversion Optimization</h3>
+
+            <p>
+                Funnel and landing-page optimization designed to improve
+                conversion rates and reduce wasted marketing spend.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-number">06</div>
+
+            <div class="service-icon">
+                ⚡
+            </div>
+
+            <h3>Marketing Automation</h3>
+
+            <p>
+                Smart workflows using WhatsApp, email and automation
+                systems to nurture leads and improve efficiency.
+            </p>
+
+            <div class="service-arrow">↗</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills" id="skills">
+
+    <div class="section-label">
+        03 — EXPERTISE
+    </div>
+
+    <div class="skills-layout">
+
+        <div>
+
+            <h2>
+                My Marketing<br>
+                <span>Stack.</span>
+            </h2>
+
+            <p class="skills-description">
+                A combination of advertising platforms, analytics,
+                creative strategy and conversion optimization.
+            </p>
+
+        </div>
+
+
+        <div class="skill-list">
+
+            <div class="skill">
+
+                <div class="skill-top">
+                    <span>Google Ads</span>
+                    <strong>95%</strong>
+                </div>
+
+                <div class="progress">
+                    <span style="width:95%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-top">
+                    <span>Meta Ads</span>
+                    <strong>92%</strong>
+                </div>
+
+                <div class="progress">
+                    <span style="width:92%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-top">
+                    <span>Lead Generation</span>
+                    <strong>94%</strong>
+                </div>
+
+                <div class="progress">
+                    <span style="width:94%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-top">
+                    <span>Social Media Marketing</span>
+                    <strong>90%</strong>
+                </div>
+
+                <div class="progress">
+                    <span style="width:90%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-top">
+                    <span>SEO</span>
+                    <strong>85%</strong>
+                </div>
+
+                <div class="progress">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MARQUEE ================= -->
+
+<div class="marquee">
+
+    <div class="marquee-track">
+
+        <span>GOOGLE ADS</span>
+        <i>✦</i>
+
+        <span>META ADS</span>
+        <i>✦</i>
+
+        <span>LEAD GENERATION</span>
+        <i>✦</i>
+
+        <span>SEO</span>
+        <i>✦</i>
+
+        <span>SOCIAL MEDIA</span>
+        <i>✦</i>
+
+        <span>GROWTH MARKETING</span>
+        <i>✦</i>
+
+        <span>GOOGLE ADS</span>
+        <i>✦</i>
+
+        <span>META ADS</span>
+        <i>✦</i>
+
+    </div>
+
+</div>
+
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="section portfolio" id="portfolio">
+
+    <div class="section-label">
+        04 — SELECTED WORK
+    </div>
+
+    <div class="section-heading">
+
+        <h2>
+            Projects That<br>
+            <span>Made an Impact.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="portfolio-grid">
+
+        <article class="project-card project-large">
+
+            <div class="project-visual google">
+
+                <div class="dashboard">
+
+                    <div class="dash-top">
+                        <span>CAMPAIGN PERFORMANCE</span>
+                        <b>LIVE</b>
+                    </div>
+
+                    <div class="chart">
+
+                        <div class="line"></div>
+
+                        <div class="chart-bars">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+
+                    </div>
+
+                    <div class="metrics">
+
+                        <div>
+                            <small>CTR</small>
+                            <strong>8.42%</strong>
+                        </div>
+
+                        <div>
+                            <small>ROAS</small>
+                            <strong>4.8x</strong>
+                        </div>
+
+                        <div>
+                            <small>LEADS</small>
+                            <strong>+124%</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+                    <span>01 / PERFORMANCE</span>
+                    <h3>Google Ads Growth Campaign</h3>
+                </div>
+
+                <span class="project-link">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-visual meta">
+
+                <div class="meta-circle">
+                    <strong>+87%</strong>
+                    <small>ENGAGEMENT</small>
+                </div>
+
+                <div class="social-bubbles">
+                    <span>f</span>
+                    <span>◎</span>
+                    <span>▶</span>
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+                    <span>02 / SOCIAL</span>
+                    <h3>Social Media Growth</h3>
+                </div>
+
+                <span class="project-link">↗</span>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-visual leads">
+
+                <div class="lead-box">
+
+                    <small>QUALIFIED LEADS</small>
+
+                    <strong>1,248</strong>
+
+                    <div class="lead-growth">
+                        ↑ 62.4%
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div>
+                    <span>03 / LEAD GEN</span>
+                    <h3>Lead Generation Funnel</h3>
+                </div>
+
+                <span class="project-link">↗</span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="testimonial">
+
+    <div class="quote-mark">
+        “
+    </div>
+
+    <p>
+        Great marketing isn't about getting more clicks.
+        It's about getting the <span>right clicks</span>.
+    </p>
+
+    <div class="quote-author">
+        <span></span>
+        Sajjadur Rahman
+        <small>Digital Marketing Specialist</small>
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact" id="contact">
+
+    <div class="section-label">
+        05 — LET'S CONNECT
+    </div>
+
+    <div class="contact-layout">
+
+        <div>
+
+            <h2>
+                Have a project<br>
+                <span>in mind?</span>
+            </h2>
+
+            <p>
+                Let's discuss your business goals and build a digital
+                marketing strategy that gets results.
+            </p>
+
+            <a href="mailto:your@email.com" class="email-link">
+                your@email.com
+                <span>↗</span>
+            </a>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="input-group">
+
+                <label>Your Name</label>
+
+                <input
+                    type="text"
+                    placeholder="John Doe"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    placeholder="john@example.com"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Project Details</label>
+
+                <textarea
+                    rows="5"
+                    placeholder="Tell me about your project..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+                Send Message
+                <span>↗</span>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        Sajjadur<span>.</span>
+    </div>
+
+    <p>
+        © 2026 Md. Sajjadur Rahman. All rights reserved.
+    </p>
+
+    <div class="social-links">
+
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Freelancer</a>
+
+    </div>
+
 </footer>
 
-<script>
-  // Header state on scroll
-  const header = document.getElementById('header');
-  window.addEventListener('scroll', () => {
-    header.classList.toggle('scrolled', window.scrollY > 20);
-  });
 
-  // Mobile nav toggle
-  const navToggle = document.getElementById('navToggle');
-  const nav = document.getElementById('nav');
-  navToggle.addEventListener('click', () => {
-    const isOpen = nav.classList.toggle('nav-open');
-    navToggle.classList.toggle('active', isOpen);
-    navToggle.setAttribute('aria-expanded', isOpen);
-  });
-  nav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('nav-open');
-      navToggle.classList.remove('active');
-      navToggle.setAttribute('aria-expanded', false);
-    });
-  });
-
-  // Scroll reveal
-  const revealEls = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-  revealEls.forEach(el => io.observe(el));
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
